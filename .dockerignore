@@ -1,0 +1,4 @@
+# PATCH: new file. "COPY . ." used to bake a local database and .git history into the image.
+.git
+.env
+data/*.db*

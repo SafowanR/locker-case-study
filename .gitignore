@@ -1,0 +1,7 @@
+data/*.db
+data/*.db-journal
+# PATCH: the app runs SQLite in WAL mode, so secrets also sit in these two files. They were not ignored.
+data/*.db-wal
+data/*.db-shm
+.env
+.DS_Store
